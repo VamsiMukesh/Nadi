@@ -1,0 +1,32 @@
+# ─── HealthSync — Python Dependencies ────────────────────────────
+# Install: pip install -r requirements.txt
+
+# ── Backend (Flask API) ──
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# ── ML / Data Science ──
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+joblib>=1.3.0
+
+# ── IoT Simulator ──
+requests>=2.31.0
+colorama>=0.4.6
+
+# ── Database (optional — for production) ──
+# pymongo>=4.5.0          # MongoDB driver
+# psycopg2-binary>=2.9.0  # PostgreSQL driver
+# sqlalchemy>=2.0.0       # ORM
+
+# ── Utilities ──
+python-dotenv>=1.0.0
+
+# ── Testing ──
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# ── Production (optional) ──
+# gunicorn>=21.2.0
+# uvicorn>=0.24.0
